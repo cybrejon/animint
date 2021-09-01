@@ -12,7 +12,7 @@
 
   --green-highlight: hsla(var(--hue), 100%, 10%, 0.75);
 
-  --hue-rotation: calc(var(--hue) + 175);
+  --hue-rotation: calc((var(--hue) + 175)*1deg);
 }
 
 body {
