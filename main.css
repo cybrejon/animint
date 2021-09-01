@@ -1,455 +1,469 @@
 body {
-        background-color: #1A1A1A !important;
-    }
-    
-    .floattopsearch {
-        padding: 20px;
-        background-color: #1A1A1A;
-    }
-    
-    #flexcontainer {
-        margin-top: 30px;
-    }
+  background-color: #1a1a1a !important;
+}
 
-    #q {
-        border: none;
-        background-color: rgba(255, 255, 255, .05) !important;
-    }
-    
-    #q:focus {
-        border: none !important;
-    }
-    
-    #featuredcard {
-        border-radius: 7px;
-        overflow: hidden;
-        margin-bottom: 25px;
-        background-color: rgba(255, 255, 255, .1);
-    }
-    
-    #featuredtitle > a {
-        color: #f3f3f3;
-    }
-    
-    #featuredtitle {
-        padding-top: 5px;
-        padding-left: 10px;
-    }
-    
-    #featuredtext {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    #featuredgenre {
-        margin-left: 10px
-    }
-    
-    #announcement {
-        display: none !important;
-    }
-    
-    #readmorebtn {
-        display: none !important;
-    }
-    
-    .nav-tabs {
-        border-bottom: none;
-    }
-    
-    .nav-tabs li a {
-        background-color: transparent !important;
-        color: rgba(255, 255, 255, .4);
-        padding: 2px 10px 2px 10px;
-            font-size: .9em;
-    }
-    
-    .nav-tabs li a:hover {
-        color: #b8ff01;
-    }
-    
-    .nav-tabs .active a {
-        background-color: #47512f75 !important;
-        border-radius: 5px;
-        padding: 2px 10px 2px 10px;
-        color: #b8ff01;
-    }
-    
-    .searchresult {
-        margin-top: 20px;
-        padding-left: 35px;
-    }
-    
-    .searchresult li, .items li {
-        border: none;
-        background-color: transparent;
-        margin: 5px;
-        border-radius: 8px;
-        overflow: hidden;
-    }
-    
-    .searchresult li:hover {
-        background-color: transparent;
-    }
-    
-    @keyframes zoomout {
-        from {
-            transform: scale(.95);
-        }
-        to {
-            transform: scale(1);
-        }
-    }
-    
-    .resultimg {
-        border-radius: 8px;
-        animation: zoomout .3s;
-    }
-    
-    .searchresult li:hover .resultimg {
-        opacity: .8;
-        transition: .2s;
-/*         border: 10px solid transparent; */
-        transform: scale(.95);
-    }
-    
-    .timetext {
-        border-radius: 8px 0 8px 0;
-    }
-    
-    .rating {
-        border-radius: 0 0 8px 0;
-    }
-    
-    #resultplace ul .details .name {
-        color: #f3f3f3;
-    }
-    
-    #openschedulebtn {
-        background-color: transparent;
-        color: #fff;
-        float: none;
-        position: absolute;
-        right: 0px;
-        top: 170px;
-    }
-    
-    .leftside {
-        position: relative;
-    }
-    
-    .rightcard {
-        background-color: #262626;
-        border-radius: 7px !important;
-        margin-bottom: 12px;
-    }
-    
-    #rightsidee > div:nth-child(1) {
-        padding: 23px 0 0 0;
-        border: none !important;
-        overflow: hidden;
-    }
-    
-    #rightsidee > div:nth-child(5) {
-        border: none !important;
-    }
-    
-    .usernameplace {
-        font-size: 1.5em;
-    }
-    
-    #iconmenu > a, #iconmenu > i {
-        color: #fff !important;
-    }
-    
-    #iconmenu a:hover, i:hover {
-        background-color: rgba(0, 0, 0, .1);
-    }
-    
-    .subtextmenuicon {
-        color: rgba(255, 255, 255, .5);
-    }
+.floattopsearch {
+  padding: 20px;
+  background-color: #1a1a1a;
+}
 
-    .linkpersonal, .autotrackbtn, #iconmenu > i.glyphicon.glyphicon-off {
-        padding: 15px 0;
-        margin-bottom: 0 !important;
-    }
-    
-    #rightsidee > div:nth-child(4) {
-        padding: 15px 15px 10px 15px;
-    }
-    
-    #rightsidee > div:nth-child(5) {
-        padding: 15px;
-    }
-    
-    #rightsidee > div:nth-child(6) {
-        border: none !important;
-        padding: 15px 15px 10px 15px;
-    }
-    
-    #rightsidee > div:nth-child(5) > div.subtitleright, #rightsidee > div:nth-child(7) > div.subtitleright {
-        border: none;
-    }
-    
-    #rightsidee > div:nth-child(7) {
-        padding: 15px 0;
-        overflow: hidden;
-        background-color: transparent;
-    }
-    
-    #genreplace > .form-check > div > input {
-        position: absolute;
-        opacity: 0;
-        cursor: pointer;
-        height: 0;
-        width: 0;
-    }
-    
-    .form-check-label {
-        border-radius: 2px;
-        display: block;
-        margin: 5px 5px 0 5px;
-        padding: 5px 10px 3px 5px;
-        border-left: 3px solid transparent;
-    }
-    
-    .form-check-input:checked + .form-check-label {
-        padding-left: 5px;
-        background-color: #7fad0721;
-        border-color: #9DDA00;
-        color: #c9ff3d;
-    }
-    
-    .form-check-input:hover + .form-check-label {
-        background-color: rgba(255, 255, 255, .1);
-        padding-left: 5px;
-        margin: 5px 5px 0 5px;
-    }
-    
-    .form-check-input:checked:hover + .form-check-label {
-        padding-left: 5px;
-    }
-    
-    #ongoingplace > li > a {
-        background-color: rgba(255, 255, 255, .06);
-        border-radius: 5px;
-        overflow: hidden;
-        margin-bottom: 15px;
-    }
-    
-    #ongoingplace > li > a:hover {
-        background-color: rgba(255, 255, 255, .1);
-    }
-    
-    #rightsidee > div:nth-child(7) > div.subtitleright {
-        margin-bottom: 15px;
-        font-weight: bold;
-    }
-    
-    .topanimename {
-        margin-top: 10px;
-        margin-right: 10px;
-        color: #fff;
-    }
-    
-    .topanimea {
-        align-items: stretch;
-    }
-    
-    .topanimerating > i, #addInfo > i {
-        color: #9DDA00 !important;
-    }
-    
-    .topanimenumber {
-        margin-bottom: 5px
-    }
-    
-    .topanimeimg {
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
-    }
-    
-    #loadmorelist, #manualtrackbtn {
-        background-color: rgba(255, 255, 255, .1);
-        padding: 7px 0;
-        width: 160px;
-        color: rgba(255, 255, 255, .6);
-        border-radius: 3px;
-        transition: .1s;
-        font-size: 1.3em;
-        border: none;
-    }
-    
-    #loadmorelist:hover, #manualtrackbtn:hover {
-        background-color: rgba(255, 255, 255, .2);
-        color: #fff;
-    }
-    
-    #loadmorelist > i {
-        display: none;
-    }
-    
-    #topmid{
-        margin-top: 37px;
-    }
-    
-    #searchbox > img, #searchbox > a:nth-child(3) > img {
-        filter: hue-rotate(260deg);
-    }
-    
-    #featuredBack > i, #featuredNext > i {
-        color: #9DDA00;
-    }
-    
-    @keyframes fade {
-        from {
-            opacity: .3;
-        }
-        to {
-            opacity: 1;
-        }
-    }
-    
-    #featuredcont {
-        animation: fade 1s;
-    }
-    
-    #resultplace > ul > li > a > div.searchimg > div.rating > i, #menumobilebtn2 > i {
-        color: #9DDA00;
-    }
-    
-    #seasonalgobtn {
-        background-color: #3e442c;
-    }
-    
-    #seasonalgobtn:hover {
-        background-color: #5a7700;
-    }
-    
-    #resultplace > div.genretitle {
-        color: #d4ff65;
-        padding: 18px 0;
-        border-radius: 7px;
-        margin-top: 20px;
-    }
-    
-    #resultplace > div:nth-child(1) {
-        color: #d4ff65;
-        padding: 18px 0 !important;
-        border-radius: 7px;
-        margin-top: 20px;
-    }
-    
-    .dubtag {
-        color: #daa700;
-    }
-    
-    #prevseasonbtn, #nextseasonbtn {
-        color: #b8ff00;
-    }
-    
-    #topfilterselect {
-        top: 65px;
-        right: 30px;
-    }
-    
-    #userconfirmcheck > label.switch > span {
-        background-color: #618504;
-    }
-    
-    #simklminicon {
-        filter: brightness(200%);
-    }
-    
-    #maincoverimage {
-        border-top-left-radius: 7px; 
-        border-top-right-radius: 7px; 
-    }
-    
-    #animeleftside > div {
-        border-bottom-left-radius: 7px !important;
-        border-bottom-right-radius: 7px !important;
-        border-top-right-radius: 0 !important;
-        border-top-left-radius: 0 !important;
-    }
-    
-    #infopanel {
-        padding: 20px 10px;
-        max-height: 280px;
-    }
-    
-    #infopanel > div.subtitleright {
-        border: none;
-        background-color: rgba(255, 255, 255, .05);
-        padding: 10px 0;
-    }
-    
-    #infopanel > div.subtitleright > a > i {
-        color: #B8FF00;
-        margin-left: 5px;
-    }
-    
-    #manualTrackingCard {
-        margin-bottom: 10px;
-        border-radius: 7px;
-        padding-bottom: 20px;
-    }
-    
-    #trackingTitle, #infocard > div.subtitleright {
-        border: none;
-        padding: 20px;
-    }
-    
-    body > div.playerpage > div.subpart.eptitle {
-        background-color: #F4D03F;
-        background-image: linear-gradient(281deg, #F4D03F 0%, #16A085 100%);
-        position: relative;
-        color: #000;
-        padding: 10px 15px;
-        font-weight: bold;
-    }
-    
-    #eptitle {
-        overflow: visible;
-    }
-    
-    #eptitle > span.altsourcenotif {
-        border-left: none;
-        font-weight: normal;
-        padding: 2px 7px 3px 7px;
-        border-radius: 6px;
-        color: #fff;
-        background-color: #000;
-        vertical-align: middle;
-        margin-left: 20px;
-    }
-    
-    #eptitleplace {
-        vertical-align: middle;
-    }
-    
-    #toprightplayer {
-        
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        position: absolute;
-        right: 0;
-        left: 930px;
-        top: 24px;
-        bottom: 0;
-    }
-    #toprightplayer > i.proxybtn.glyphicon.glyphicon.glyphicon-transfer, #nextbtn {
-        color: #1a1a1a !important;
-    }
-    
-    #playerleftsidebar {
-        background-color: rgba(0, 0, 0, 0);
-        backdrop-filter: blur(20px);
-    }
-    
-    #coverlight {
-        background: linear-gradient(to right, #000, transparent);
-    }
+#flexcontainer {
+  margin-top: 30px;
+}
+
+#q {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+#q:focus {
+  border: none !important;
+}
+
+#featuredcard {
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#featuredtitle > a {
+  color: #f3f3f3;
+}
+
+#featuredtitle {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+#featuredtext {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#featuredgenre {
+  margin-left: 10px;
+}
+
+#announcement {
+  display: none !important;
+}
+
+#readmorebtn {
+  display: none !important;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs li a {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 2px 10px 2px 10px;
+  font-size: 0.9em;
+}
+
+.nav-tabs li a:hover {
+  color: #b8ff01;
+}
+
+.nav-tabs .active a {
+  background-color: #47512f75 !important;
+  border-radius: 5px;
+  padding: 2px 10px 2px 10px;
+  color: #b8ff01;
+}
+
+.searchresult {
+  margin-top: 20px;
+  padding-left: 35px;
+}
+
+.searchresult li,
+.items li {
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.searchresult li:hover {
+  background-color: transparent;
+}
+
+@keyframes zoomout {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.resultimg {
+  border-radius: 8px;
+  animation: zoomout 0.3s;
+}
+
+.searchresult li:hover .resultimg {
+  opacity: 0.8;
+  transition: 0.2s;
+  /*         border: 10px solid transparent; */
+  transform: scale(0.95);
+}
+
+.timetext {
+  border-radius: 8px 0 8px 0;
+}
+
+.rating {
+  border-radius: 0 0 8px 0;
+}
+
+#resultplace ul .details .name {
+  color: #f3f3f3;
+}
+
+#openschedulebtn {
+  background-color: transparent;
+  color: #fff;
+  float: none;
+  position: absolute;
+  right: 0px;
+  top: 170px;
+}
+
+.leftside {
+  position: relative;
+}
+
+.rightcard {
+  background-color: #262626;
+  border-radius: 7px !important;
+  margin-bottom: 12px;
+}
+
+#rightsidee > div:nth-child(1) {
+  padding: 23px 0 0 0;
+  border: none !important;
+  overflow: hidden;
+}
+
+#rightsidee > div:nth-child(5) {
+  border: none !important;
+}
+
+.usernameplace {
+  font-size: 1.5em;
+}
+
+#iconmenu > a,
+#iconmenu > i {
+  color: #fff !important;
+}
+
+#iconmenu a:hover,
+i:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.subtextmenuicon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.linkpersonal,
+.autotrackbtn,
+#iconmenu > i.glyphicon.glyphicon-off {
+  padding: 15px 0;
+  margin-bottom: 0 !important;
+}
+
+#rightsidee > div:nth-child(4) {
+  padding: 15px 15px 10px 15px;
+}
+
+#rightsidee > div:nth-child(5) {
+  padding: 15px;
+}
+
+#rightsidee > div:nth-child(6) {
+  border: none !important;
+  padding: 15px 15px 10px 15px;
+}
+
+#rightsidee > div:nth-child(5) > div.subtitleright,
+#rightsidee > div:nth-child(7) > div.subtitleright {
+  border: none;
+}
+
+#rightsidee > div:nth-child(7) {
+  padding: 15px 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#genreplace > .form-check > div > input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.form-check-label {
+  border-radius: 2px;
+  display: block;
+  margin: 5px 5px 0 5px;
+  padding: 5px 10px 3px 5px;
+  border-left: 3px solid transparent;
+}
+
+.form-check-input:checked + .form-check-label {
+  padding-left: 5px;
+  background-color: #7fad0721;
+  border-color: #9dda00;
+  color: #c9ff3d;
+}
+
+.form-check-input:hover + .form-check-label {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 5px;
+  margin: 5px 5px 0 5px;
+}
+
+.form-check-input:checked:hover + .form-check-label {
+  padding-left: 5px;
+}
+
+#ongoingplace > li > a {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#ongoingplace > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#rightsidee > div:nth-child(7) > div.subtitleright {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.topanimename {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.topanimea {
+  align-items: stretch;
+}
+
+.topanimerating > i,
+#addInfo > i {
+  color: #9dda00 !important;
+}
+
+.topanimenumber {
+  margin-bottom: 5px;
+}
+
+.topanimeimg {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#loadmorelist,
+#manualtrackbtn {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 7px 0;
+  width: 160px;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  transition: 0.1s;
+  font-size: 1.3em;
+  border: none;
+}
+
+#loadmorelist:hover,
+#manualtrackbtn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+#loadmorelist > i {
+  display: none;
+}
+
+#topmid {
+  margin-top: 37px;
+}
+
+#searchbox > img,
+#searchbox > a:nth-child(3) > img {
+  filter: hue-rotate(260deg);
+}
+
+#featuredBack > i,
+#featuredNext > i {
+  color: #9dda00;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#featuredcont {
+  animation: fade 1s;
+}
+
+#resultplace > ul > li > a > div.searchimg > div.rating > i,
+#menumobilebtn2 > i {
+  color: #9dda00;
+}
+
+#seasonalgobtn {
+  background-color: #3e442c;
+}
+
+#seasonalgobtn:hover {
+  background-color: #5a7700;
+}
+
+#resultplace > div.genretitle {
+  color: #d4ff65;
+  padding: 18px 0;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+#resultplace > div:nth-child(1) {
+  color: #d4ff65;
+  padding: 18px 0 !important;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.dubtag {
+  color: #daa700;
+}
+
+#prevseasonbtn,
+#nextseasonbtn {
+  color: #b8ff00;
+}
+
+#topfilterselect {
+  top: 65px;
+  right: 30px;
+}
+
+#userconfirmcheck > label.switch > span {
+  background-color: #618504;
+}
+
+#simklminicon {
+  filter: brightness(200%);
+}
+
+#maincoverimage {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#animeleftside > div {
+  border-bottom-left-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+#infopanel {
+  padding: 20px 10px;
+  max-height: 280px;
+}
+
+#infopanel > div.subtitleright {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 0;
+}
+
+#infopanel > div.subtitleright > a > i {
+  color: #b8ff00;
+  margin-left: 5px;
+}
+
+#manualTrackingCard {
+  margin-bottom: 10px;
+  border-radius: 7px;
+  padding-bottom: 20px;
+}
+
+#trackingTitle,
+#infocard > div.subtitleright {
+  border: none;
+  padding: 20px;
+}
+
+body > div.playerpage > div.subpart.eptitle {
+  background-color: #f4d03f;
+  background-image: linear-gradient(281deg, #f4d03f 0%, #16a085 100%);
+  position: relative;
+  color: #000;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+#eptitle {
+  overflow: visible;
+}
+
+#eptitle > span.altsourcenotif {
+  border-left: none;
+  font-weight: normal;
+  padding: 2px 7px 3px 7px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #000;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+#eptitleplace {
+  vertical-align: middle;
+}
+
+#toprightplayer {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 0;
+  left: 930px;
+  top: 24px;
+  bottom: 0;
+}
+#toprightplayer > i.proxybtn.glyphicon.glyphicon.glyphicon-transfer,
+#nextbtn {
+  color: #1a1a1a !important;
+}
+
+#playerleftsidebar {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(20px);
+}
+
+#coverlight {
+  background: linear-gradient(to right, #000, transparent);
+}
