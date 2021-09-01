@@ -468,3 +468,87 @@ body > div.playerpage > div.subpart.eptitle {
 #coverlight {
   background: linear-gradient(to right, #000, transparent);
 }
+
+#rightsidee > div:nth-child(1) {
+    padding: 15px;
+}
+
+#loginform > div.flexrightcard {
+    flex-direction: column;
+}
+
+#loginform > div.flexrightcard > div.halfleft > input {
+    display: block;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.logininput {
+    background-color: #333;
+    box-shadow: 0 2px 1px #00000021;
+    margin: 0 0 7px 0;
+    width: 100%;
+}
+
+#rememberme {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#loginform > div.flexrightcard > div.halfleft > label {
+    margin-top: 8px;
+}
+
+.loginbtn {
+    border: none;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0;
+    width: 100%;
+    background-color: #34401b;
+    color: #B8FF01;
+    font-weight: bold;
+}
+
+.openregisterbtn {
+    text-align: center;
+    background-color: #333333;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 6px;
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+    float: none;
+    color: #fff;
+}
+
+#loginform > div.flexrightcard > div.halfright {
+    margin: 5px 0 3px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+@keyframes slidedown {
+    from {
+        transform: scale(.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#statuslogin > span {
+    margin: 0 0 5px 0;
+    border-radius: 5px;
+    animation: slidedown .3s;
+    background-color: #621818;
+    padding: 10px 0;
+}
