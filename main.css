@@ -450,10 +450,11 @@ body > div.playerpage > div.subpart.eptitle {
   justify-content: space-evenly;
   position: absolute;
   right: 0;
-  left: 930px;
+  left: 85%;
   top: 24px;
   bottom: 0;
 }
+
 #toprightplayer > i.proxybtn.glyphicon.glyphicon.glyphicon-transfer,
 #nextbtn {
   color: #1a1a1a !important;
