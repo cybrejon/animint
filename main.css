@@ -1,14 +1,18 @@
 :root {
-  --lime: #b8ff00;
-  --dim-lime: #9dda00;
-  --bright-lime: #c9ff3d;
-  --xtra-bright-lime: #d4ff65;
+  --hue: 77;
 
-  --green: #5a7700;
-  --bright-green: #618504;
-  --dark-green: #3e442c;
+  --lime: hsl(var(--hue), 100%, 50%);
+  --dim-lime: hsl(var(--hue), 100%, 43%);
+  --bright-lime: hsl(var(--hue), 100%, 62%);
+  --xtra-bright-lime: hsl(var(--hue), 100%, 70%);
 
-  --green-highlight: #47512f75;
+  --green: hsl(var(--hue), 100%, 23%);
+  --bright-green: hsl(var(--hue), 100%, 27%);
+  --dark-green: hsl(var(--hue), 100%, 10%);
+
+  --green-highlight: hsla(var(--hue), 100%, 10%, 0.75);
+
+  --hue-rotation: calc(var(--hue) + 175);
 }
 
 body {
@@ -318,7 +322,7 @@ i:hover {
 
 #searchbox > img,
 #searchbox > a:nth-child(3) > img {
-  filter: hue-rotate(260deg);
+  filter: hue-rotate(var(--hue-rotation));
 }
 
 #featuredBack > i,
